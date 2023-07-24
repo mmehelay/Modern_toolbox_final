@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Welcome to Modern Toolbox, the leading construction company in Aurora, Ontario. Discover our exceptional craftsmanship, innovative solutions, and outstanding customer service. From custom builds to renovations and repairs, we bring your construction dreams to life. Explore our services and experience the difference with Modern Toolbox. Transform your vision into reality with our expertise and commitment to excellence.">
+  <title>Modern Toolbox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;700&family=Poiret+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/FinalLogo.png"/>
+</head>
+<body>
+
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="images/FinalLogo.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+            <p class="Logo_words" style="color: white;">Modern Toolbox</p>
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="index.html" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="about.html" class="cs-li-link">
+                            About
+                        </a>
+                    </li>
+                    <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                    <li class="cs-li cs-dropdown" tabindex="0">
+                        <span class="cs-li-link">
+                            Services
+                            <img class="cs-drop-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/down-gold.svg" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                        </span>
+                        <ul class="cs-drop-ul">
+                            <li class="cs-drop-li">
+                                <a href="custom_builds.html" class="cs-li-link cs-drop-link">Custom Builds</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="rennovation.html" class="cs-li-link cs-drop-link">Renovations</a>
+                            </li>
+                            <li class="cs-drop-li">
+                                <a href="repair.html" class="cs-li-link cs-drop-link">Repairs</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cs-li">
+                        <a href="gallery.html" class="cs-li-link">
+                            Projects
+                        </a>
+                    </li>
+                    <li class="cs-li hidden">
+                        <a href="Contact-Us.html" class="cs-li-link">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="Contact-Us.html" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+                                
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1059">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">Custom Builds Renovations and Repairs</h1>
+            <p class="cs-text">
+               Your Trusted Partner for Custom Builds, Renovations & Repairs in Aurora, Ontario
+            </p>
+            <a href="" class="cs-button-solid">Get In Touch</a>
+        </div>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="images/Hero.jpeg">
+        <source media="(min-width: 601px)" srcset="images/Hero.jpeg">
+        <img decoding="async" src="images/Hero.jpeg" alt="mechanic" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+                                
+
+<!-- ============================================ -->
+<!--                  About Us                    -->
+<!-- ============================================ -->
+
+
+<section id="RTsbs-71">
+    <div class="even-columns container">
+  
+        <div class="cs-content container">
+            <h2 class="fs-secondary-heading fw-bold" style="margin-bottom:20px; margin-top: 10px;">About Us</h2>
+            <p class ="modern" style=" margin-bottom:20px;" >
+              Modern Toolbox Inc. is a leading and reputable contracting company based in King, Ontario. With a commitment to top quality and comprehensive project management, we have built a strong reputation in the industry. Since our inception, we have been providing a wide range of services to meet the diverse needs of our clients. From start to finish, we are dedicated to delivering exceptional craftsmanship and outstanding customer service.
+            </p>
+            <hr>
+            <div class="call fw-bold" style=" margin-top:20px;">
+            <a href="index.html"><img class="icon" width="40" height="40" src="images/Telephone.png" alt="Modern Toolbox"></a>
+            <div class="calls_words">
+            <h4 class="fw-bold" >Get In Touch with A Repersentative Today</h4>
+            <a  style=" text-decoration: none; color:var(--clr-primary-400);" href="tel:647-280-0744" class="cs-link">(647) 280-0744</a>
+             </div>
+            </div>
+
+				         
+        </div>
+              <div class="table">
+              	<form name="Main Form" data-netlify="true" method="post" action="/success/">
+           		<h3>Request A Free Estimate</h3>
+           		<input type="text" id="name" placeholder="Your Name" name="name" required>
+           		<input type="email" id="email" placeholder="Email Id" name="email" required>
+           		<input type="text" id="phone" placeholder="Phone no." name="phone" required>
+           		<textarea id="message" rows="4" placeholder="How can we help you?" name="message"></textarea>
+           		 <button class="button" type="submit">Send</button>
+                  </form>
+        </div>
+    </div>
+</section>
+</div>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+
+
+
+            
+<section id="services-930">
+    <ul class="cs-card-group">
+        <li class="cs-item">
+            <span class="cs-letters">01.</span>
+            <h2 class="cs-h2">Custom Builds</h2>
+            <p class="cs-item-text">
+                 Our construction experts will bring your custom builds to life with precision and excellence.
+            </p>
+            <a href="about.html" class="cs-links">More About Us</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <source media="(max-width: 600px)" srcset="images/Picture1.jpg">
+                <source media="(min-width: 601px)" srcset="images/Picture1.jpg">
+                <img loading="lazy" decoding="async" src="images/Picture1.jpg" alt="Custom Builds" width="480" height="425">
+            </picture>
+        </li>
+        <li class="cs-item">
+            <span class="cs-letters">02.</span>
+            <h2 class="cs-h2">Renovations</h2>
+            <p class="cs-item-text">
+                Our renovation experts will tailor every detail to your unique vision, ensuring a truly customized experience.
+            </p>
+            <a href="about.html" class="cs-links">More About Us</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <source media="(max-width: 600px)" srcset="images/Picture2.jpg">
+                <source media="(min-width: 601px)" srcset="images/Picture2.jpg">
+                <img loading="lazy" decoding="async" src="images/Picture2.jpg" alt="Rennovations" width="480" height="425">
+            </picture>
+        </li>
+        <li class="cs-item">
+            <span class="cs-letters">03.</span>
+            <h2 class="cs-h2">Repairs</h2>
+            <p class="cs-item-text">
+                Our skilled technicians specialize in providing tailored repair solutions for all your needs.
+            </p>
+            <a href="about.html" class="cs-links">More About Us</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <source media="(max-width: 600px)" srcset="images/Picture3.jpg">
+                <source media="(min-width: 601px)" srcset="images/Picture3.jpg">
+                <img loading="lazy" decoding="async" src="images/Picture3.jpg" alt="Repairs" width="480" height="425">
+            </picture>
+        </li>
+        <li class="cs-item">
+            <span class="cs-letters">04.</span>
+            <h2 class="cs-h2">Landscaping</h2>
+            <p class="cs-item-text">
+                Our landscaping experts will design and create a customized landscape that perfectly complements your style.
+            </p>
+            <a href="about.html" class="cs-links">More About Us</a>
+            <!--Background Image-->
+            <picture class="cs-background">
+                <source media="(max-width: 600px)" srcset="images/Picture13.jpg">
+                <source media="(min-width: 601px)" srcset="images/Picture13.jpg">
+                <img loading="lazy" decoding="async" src="images/Picture13.jpg" alt="Landscaping" width="480" height="425">
+            </picture>
+        </li>
+    </ul>
+</section>
+
+<!-- ============================================ -->
+<!--                  Why Choose                  -->
+<!-- ============================================ -->
+
+<section id="why-choose-507">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <h2 class="cs-title">Why Choose Us</h2>
+            </div>
+            <p class="cs-text">
+                Building Excellence and Transforming Spaces with Expert Craftsmanship, Reliable Service, and Uncompromising Quality
+            </p>
+        </div>
+        <div class="cs-flex-group">
+            <!--Stats List-->
+            <ul class="cs-card-group">
+                <li class="cs-stats-item">
+                    <span class="cs-number">100+</span>
+                    <span class="cs-desc">Projects Completed</span>
+                </li>
+                <li class="cs-stats-item">
+                    <span class="cs-number">5/5</span>
+                    <span class="cs-desc">Customer Satisfaction</span>
+                </li>
+                <li class="cs-stats-item">
+                    <span class="cs-number">5+</span>
+                    <span class="cs-desc">Hard Working Employees</span>
+                </li>
+                <li class="cs-stats-item">
+                    <span class="cs-number">100%</span>
+                    <span class="cs-desc">Project Completion Rate</span>
+                </li>
+            </ul>
+            <!--Qualities List-->
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <span class="cs-li-number">01</span>
+                    <div class="cs-li-flex">
+                        <h3 class="cs-h3">Exceptional Craftsmanship</h3>
+                        <p class="cs-li-text">
+                            At Modern Toolbox Inc., we have a team of skilled and experienced professionals who are dedicated to delivering exceptional craftsmanship. We pay attention to every detail, ensuring that the final result exceeds your expectations.
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <span class="cs-li-number">02</span>
+                    <div class="cs-li-flex">
+                        <h3 class="cs-h3">Wide Range of Services</h3>
+                        <p class="cs-li-text">
+                            Our company offers a diverse range of services to cater to your specific needs. Whether you require custom builds, renovations, repairs, or landscaping, we have the expertise and experience to handle any project with precision and professionalism.
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <span class="cs-li-number">03</span>
+                    <div class="cs-li-flex">
+                        <h3 class="cs-h3">Reputation and Experience</h3>
+                        <p class="cs-li-text">
+                            With a strong reputation in the industry, Modern Toolbox Inc. has successfully completed numerous projects over the years. Our experience allows us to tackle complex construction challenges effectively and deliver high-quality results.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+                                
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-49">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Our Portfolio</span>
+            <h2 class="cs-title">Check Out Our Latest Completed Projects</h2>
+            <p class="cs-text">
+               With our diverse portfolio of projects and expertise in various construction areas, we have established ourselves as a trusted and reliable construction company, delivering excellence in every endeavor.
+            </p>
+        </div>
+        <ul class="cs-image-group">
+            <!-- Image 1 -->
+            <li class="cs-item cs-item-1">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="images/Picture10.jpg">
+                    <source media="(min-width: 601px)" srcset="images/Picture10.jpg">
+                    <img loading="lazy" decoding="async" src="images/Picture10.jpg" alt="Front Walkway" width="529" height="256">
+                </picture>
+                <!-- Hover Box -->
+                <div class="cs-hover-box">
+                    <h3 class="cs-h3">Front Walkway</h3>
+                    <a class="cs-link" aria-label="Visit Gallery" href="Gallery.html">
+                       Visit Gallery
+                    </a>
+                </div>
+            </li>
+            <!-- Image 2 -->
+            <li class="cs-item cs-item-2">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="images/Picture11.jpg">
+                    <source media="(min-width: 601px)" srcset="images/Picture11.jpg">
+                    <img loading="lazy" decoding="async" src="images/Picture11.jpg" alt="Side Walkway" width="255" height="255">
+                </picture>
+                <!-- Hover Box -->
+                <div class="cs-hover-box">
+                    <h3 class="cs-h3">Side Walkway</h3>
+                    <a class="cs-link" aria-label="Visit Gallery" href="Gallery.html">
+                        Visit Gallery
+                    </a>
+                </div>
+            </li>
+            <!-- Image 3 -->
+            <li class="cs-item cs-item-3">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="images/Picture5.jpg">
+                    <source media="(min-width: 601px)" srcset="images/Picture5.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="images/Picture5.jpg" alt="Aluminum Fence" width="255" height="255">
+                </picture>
+                <!-- Hover Box -->
+                <div class="cs-hover-box">
+                    <h3 class="cs-h3">Aluminum Fence</h3>
+                    <a class="cs-link" aria-label="Visit Gallery" href="Gallery.html">
+                        Visit Gallery
+                    </a>
+                </div>
+            </li>
+            <!-- Image 4 -->
+            <li class="cs-item cs-item-4">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="images/Picture22.jpg">
+                    <source media="(min-width: 601px)" srcset="images/Picture22.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="images/Picture4.jpg" alt="Interlocking Driveway Extension" width="255" height="255">
+                </picture>
+                <!-- Hover Box -->
+                <div class="cs-hover-box">
+                    <h3 class="cs-h3">Deck</h3>
+                    <a class="cs-link" aria-label="Visit Gallery" href="Gallery.html">
+                        Visit Gallery
+                    </a>
+                </div>
+            </li>
+            <!-- Image 5 -->
+            <li class="cs-item cs-item-5">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="images/Picture8.jpg">
+                    <source media="(min-width: 601px)" srcset="images/Picture8.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="images/Picture8.jpg" alt="Deck" width="255" height="255">
+                </picture>
+                <!-- Hover Box -->
+                <div class="cs-hover-box">
+                    <h3 class="cs-h3">Deck</h3>
+                    <a class="cs-link" aria-label="Visit Gallery" href="Gallery.html">
+                        Visit Gallery
+                    </a>
+                </div>
+            </li>
+            <!-- Image 6 -->
+            <li class="cs-item cs-item-6">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)" srcset="images/Picture7.jpg">
+                    <source media="(min-width: 601px)" srcset="images/Picture7.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="images/Picture7.jpg" alt="Wooden Steps" width="255" height="530">
+                </picture>
+                <!-- Hover Box -->
+                <div class="cs-hover-box">
+                    <h3 class="cs-h3">Wooden Steps</h3>
+                    <a class="cs-link" aria-label="Visit Gallery" href="Gallery.html">
+                        Visit Gallery
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <a href="Gallery.html" class="cs-button-solid">View Full Gallery</a>
+    </div>
+</section>
+                                
+
+  <!-- ============================================ -->
+<!--                    CTA                       -->
+<!-- ============================================ -->
+
+<section id="cta-403">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Want to Work with Our Team?</h2>
+            <p class="cs-text">
+                We love what we do and we do it with passion. We value the experimentation of the message and smart incentives.
+            </p>
+            <a href="Contact-Us.html" class="cs-button-solid">Contact Us</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="images/CTA.jpg">
+        <source media="(min-width: 601px)" srcset="images/CTA.jpg">
+        <img loading="lazy" decoding="async" src="images/CTA.jpg" alt="Owner" width="1920" height="660" aria-hidden="true">
+    </picture>
+</section>
+                                
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-841">
+    <div class="cs-container">
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="index.html">
+                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="images/FinalLogo.png" alt="logo" width="240" height="32">
+            </a>
+            <p class="cs-text">
+               Choose Modern Toolbox Inc. for your construction needs and experience excellence in every project. We deliver exceptional craftsmanship and transform spaces with precision. 
+            <div class="cs-social">
+                        <a class="cs-social-link" aria-label="visit instagram profile" href="https://www.instagram.com/modern_toolbox/?hl=en">
+                    <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Finsta-white1.svg" alt="instagram" width="11" height="11">
+                </a>
+            </div>
+        </div>
+        <!-- Links -->
+        <div class="cs-ul-wrapper">
+            <span class="cs-header">Quick Links</span>
+            <ul class="cs-ul cs-ul-1">
+                <li class="cs-li">
+                    <a class="cs-link" href="index.html">Home</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="about.html">About</a>
+                </li>
+                 <li class="cs-li">
+                    <a class="cs-link" href="custom_builds.html">Custom Builds</a>
+                </li>
+                 <li class="cs-li">
+                    <a class="cs-link" href="rennovation.html">Renovations</a>
+                </li>
+                 <li class="cs-li">
+                    <a class="cs-link" href="repair.html">Repairs</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="Gallery.html">Projects</a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="Contact-Us.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cs-ul-wrapper">
+            <!-- Contact Info -->
+            <span class="cs-header">Contact Information</span>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <!--Make this link go to the google page-->
+                    <a class="cs-link" href="https://www.google.com/search?q=modern+toolbox&oq=modern+toolbox&aqs=chrome.0.69i59l2j0i512j0i22i30l2j69i60l3.1744j0j7&sourceid=chrome&ie=UTF-8" target="_blank">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fclock3-grey.svg" alt="clock icon" width="20" height="20">
+                        M-F 8am – 8:30pm
+                    </a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="tel:647-280-0744">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fphone3-grey.svg" alt="phone icon" width="20" height="20">
+                        647-280-0744
+                    </a>
+                </li>
+                <li class="cs-li">
+                    <a class="cs-link" href="mailto:Modern.toolbox.inc@gmail.com">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Femail3-grey.svg" alt="email icon" width="20" height="20">
+                        Modern.toolbox.inc@gmail.com
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="cs-bottom">
+        <span class="cs-credit">
+            © Copyright 2023 <a href="index.html" class="cs-credit-link" target="_blank">Enigma Digital</a>
+        </span>
+    </div>
+</footer>
+                                
+                                
+
+
+<script type="text/Javascript" src="script.js"></script>
+
+</body>
+</html>
